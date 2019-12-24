@@ -7,6 +7,6 @@ public class ConsumerListener implements MessageListener {
 
     @Override
     public void onMessage(Message message) {
-        System.out.println("In OnMessage()");
+        System.out.println("In OnMessage(){}");
     }
 }
